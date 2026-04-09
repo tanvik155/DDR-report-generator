@@ -62,3 +62,40 @@ python app.py
 **Why It Matters**
 
 Transform 200+ page inspection reports into clear, actionable DDRs in seconds. Spend less time manually matching thermal images and more time making decisions.
+
+**Usage**
+
+Open http://localhost:5000 in your browser
+
+Upload Inspection Report PDF and Thermal Report PDF
+
+Click "Generate Diagnostic Report"
+
+Download as HTML, JSON, or save as PDF
+
+**Environment Variables**
+
+Create a .env file with:
+
+GROQ_API_KEY=your_groq_api_key_here
+Get your free API key from console.groq.com
+
+**Project Structure**
+
+text
+ddr-report-generator/
+├── app.py              # Main Flask application
+├── requirements.txt    # Python dependencies
+├── uploads/           # Temporary upload folder
+├── static/images/     # Extracted images
+├── ddr_output/        # Generated reports
+└── README.md          # Documentation
+
+
+**License**
+
+MIT
+
+**Author**
+
+Tanvi Kakade
