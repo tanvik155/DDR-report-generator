@@ -7,6 +7,7 @@ DDR Report Generator is an AI-powered system that transforms inspection reports 
 No more manually hunting through hundreds of pages—get structured, actionable insights automatically.
 
 **Features**
+
 Extract text AND images from PDF documents with page context
 Use Groq Llama 3.3 70B for structured data extraction
 Intelligent image-to-observation matching using 5 strategies:
@@ -25,20 +26,21 @@ Insurance companies – verify claims efficiently
 Facility managers & architects – track issues & repairs seamlessly
 
 **Tech Stack**
+
 Backend: Flask (Python)
 LLM: Groq Llama 3.3 70B
 PDF Processing: PyMuPDF (fitz)
 Frontend: HTML/CSS with Markdown rendering
 
 **Installation**
-# Clone the repository
-git clone https://github.com/yourusername/ddr-report-generator.git
-cd ddr-report-generator
+
 
 # Install dependencies
+
 pip install -r requirements.txt
 
 # Run the application
+
 python app.py
 
 **Why It Matters**
