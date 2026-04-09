@@ -85,10 +85,15 @@ Get your free API key from console.groq.com
 text
 ddr-report-generator/
 ├── app.py              # Main Flask application
+
 ├── requirements.txt    # Python dependencies
+
 ├── uploads/           # Temporary upload folder
+
 ├── static/images/     # Extracted images
+
 ├── ddr_output/        # Generated reports
+
 └── README.md          # Documentation
 
 
